@@ -60,10 +60,10 @@ function zero(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 0;
-	three.innerHTML = 0;
-	four.innerHTML = 0;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>0</h1>";
+	three.innerHTML = "<h1>0</h1>";
+	four.innerHTML = "<h1>0</h1>";
 };
 
 function one(c){
@@ -71,10 +71,10 @@ function one(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 0;
-	three.innerHTML = 0;
-	four.innerHTML = 1;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>0</h1>";
+	three.innerHTML = "<h1>0</h1>";
+	four.innerHTML = "<h1>1</h1>";
 };
 
 function two(c){
@@ -82,10 +82,10 @@ function two(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 0;
-	three.innerHTML = 1;
-	four.innerHTML = 0;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>0</h1>";
+	three.innerHTML = "<h1>1</h1>";
+	four.innerHTML = "<h1>0</h1>";
 };
 
 function three(c){
@@ -93,10 +93,10 @@ function three(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 0;
-	three.innerHTML = 1;
-	four.innerHTML = 1;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>0</h1>";
+	three.innerHTML = "<h1>1</h1>";
+	four.innerHTML = "<h1>1</h1>";
 };
 
 function four(c){
@@ -104,10 +104,10 @@ function four(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 1;
-	three.innerHTML = 0;
-	four.innerHTML = 0;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>1</h1>";
+	three.innerHTML = "<h1>0</h1>";
+	four.innerHTML = "<h1>0</h1>";
 };
 
 function five(c){
@@ -115,10 +115,10 @@ function five(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 1;
-	three.innerHTML = 0;
-	four.innerHTML = 1;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>1</h1>";
+	three.innerHTML = "<h1>0</h1>";
+	four.innerHTML = "<h1>1</h1>";
 };
 
 function six(c){
@@ -126,10 +126,10 @@ function six(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 1;
-	three.innerHTML = 1;
-	four.innerHTML = 0;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>1</h1>";
+	three.innerHTML = "<h1>1</h1>";
+	four.innerHTML = "<h1>0</h1>";
 };
 
 function seven(c){
@@ -137,10 +137,10 @@ function seven(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 0;
-	two.innerHTML = 1;
-	three.innerHTML = 1;
-	four.innerHTML = 1;
+	one.innerHTML = "<h1>0</h1>";
+	two.innerHTML = "<h1>1</h1>";
+	three.innerHTML = "<h1>1</h1>";
+	four.innerHTML = "<h1>1</h1>";
 };
 
 function eight(c){
@@ -148,10 +148,10 @@ function eight(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 1;
-	two.innerHTML = 0;
-	three.innerHTML = 0;
-	four.innerHTML = 0;
+	one.innerHTML = "<h1>1</h1>";
+	two.innerHTML = "<h1>0</h1>";
+	three.innerHTML = "<h1>0</h1>";
+	four.innerHTML = "<h1>0</h1>";
 };
 
 function nine(c){
@@ -159,10 +159,10 @@ function nine(c){
 	var two=document.getElementById('table').rows[1].cells[c];
 	var three=document.getElementById('table').rows[2].cells[c];
 	var four=document.getElementById('table').rows[3].cells[c];
-	one.innerHTML = 1;
-	two.innerHTML = 0;
-	three.innerHTML = 0;
-	four.innerHTML = 1;
+	one.innerHTML = "<h1>1</h1>";
+	two.innerHTML = "<h1>0</h1>";
+	three.innerHTML = "<h1>0</h1>";
+	four.innerHTML = "<h1>1</h1>";
 };
 
 
